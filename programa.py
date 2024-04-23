@@ -1,18 +1,18 @@
 # 1 Escribe un programa en Python que imprima tu nombre en la pantalla.
 def imprimir_nombre():
-    nombre=input("Por favor ingrese su nombre: ")
-    print("Hola", nombre)
+    nombre="Diego Saavedra"
+    print(nombre)
 
 if __name__ == "__main__":
     imprimir_nombre()
 
-# 2 Escribe un programa que calcule la suma de los números del 1 al 10.
-def suma_1_al_10():
-    suma = sum(range(1, 11))  # Se utiliza la función sum() para calcular la suma del rango del 1 al 10
-    print(suma)
+# # 2 Escribe un programa que calcule la suma de los números del 1 al 10.
+# def suma_1_al_10():
+#     suma = sum(range(1, 11))  # Se utiliza la función sum() para calcular la suma del rango del 1 al 10
+#     print(suma)
 
-if __name__ == "__main__":
-    resultado = suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
+# if __name__ == "__main__":
+#     resultado = suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
     
 
 # # 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
