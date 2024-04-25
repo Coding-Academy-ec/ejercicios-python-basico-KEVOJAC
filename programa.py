@@ -7,38 +7,37 @@
 #     imprimir_nombre()
 
 # # 2 Escribe un programa que calcule la suma de los números del 1 al 10.
-# def suma_1_al_10(suma):
-#     suma= sum(range(1, 11))  # Se utiliza la función sum() para calcular la suma del rango del 1 al 10
-#     print(suma)
-    
-# if __name__ == "__main__":
-#     suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
+# def suma_1_al_10():
+#      suma = sum(range(1, 11)) # Se utiliza la función sum() para calcular la suma del rango del 1 al 10
+#      suma_1_al_10 = suma
+#      print (suma)
+#  if __name__ == "__main__":
+#      suma_1_al_10()  # Se llama a la función suma_1_al_10() para obtener el resultado
     
 
-# 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
-def imprimir_datos_personales(nombre, edad, estatura):
-    print("Nombre: " +nombre)                    
-    print("Edad: " + str(edad)) 
-    print("Estatura: " + str(estatura))
-    # Se imprimen en pantalla los datos personales recibidos como argumentos
-if __name__ == "__main__":
-    # Se definen las variables con los datos personales
-    nombre = "Kevin"
-    edad = 27
-    estatura = 1.79
-    imprimir_datos_personales(nombre, edad, estatura)   # Se llama a la función imprimir_datos_personales() para mostrar los datos
+# # 3 Crea variables para almacenar tu edad, nombre y estatura, e imprímelas en pantalla.
+# def imprimir_datos_personales(nombre, edad, estatura):
+#     print("Nombre: " +nombre)                    
+#     print("Edad: " + str(edad)) 
+#     print("Estatura: " + str(estatura))
+#     # Se imprimen en pantalla los datos personales recibidos como argumentos
+# if __name__ == "__main__":
+#     # Se definen las variables con los datos personales
+#     nombre = "Kevin"
+#     edad = 27
+#     estatura = 1.79
+#     imprimir_datos_personales(nombre, edad, estatura)   # Se llama a la función imprimir_datos_personales() para mostrar los datos
    
-# # 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
-# def par_o_impar(numero):
-#     # Se verifica si el número es divisible por 2
-#         # Si es divisible, se devuelve "par"
-#     else:
-#         # Si no es divisible, se devuelve "impar"
-
-# if __name__ == "__main__":
-#     num = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
-#     print(par_o_impar(num))  # Se imprime si el número ingresado es par o impar
-
+# 4 Escribe un programa que determine si un número ingresado por el usuario es par o impar.
+def par_o_impar(numero):
+    if numero%2==0: #Se verifica si el número es divisible por 2
+        print("par")# Si es divisible, se devuelve "par"
+    else:
+        print("impar")# Si no es divisible, se devuelve "impar"
+if __name__ == "__main__":
+    num = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
+    print("par_o_impar("+ str(num) +")") # Se imprime si el número ingresado es par o impar
+    print (par_o_impar(num))
 # # 5 Crea una función que calcule el área de un círculo dado su radio.
 # import math
 
