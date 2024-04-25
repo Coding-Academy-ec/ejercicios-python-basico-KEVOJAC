@@ -36,8 +36,8 @@ def par_o_impar(numero):
         print("impar")# Si no es divisible, se devuelve "impar"
 if __name__ == "__main__":
     num = int(input("Ingrese un número: "))  # Se solicita al usuario que ingrese un número
-    print("par_o_impar("+ str(num) +")") # Se imprime si el número ingresado es par o impar
-    print (par_o_impar(num))
+    print (par_o_impar(num)) # Se imprime si el número ingresado es par o impar
+    
 # # 5 Crea una función que calcule el área de un círculo dado su radio.
 # import math
 
